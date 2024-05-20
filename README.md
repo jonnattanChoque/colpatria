@@ -1,11 +1,11 @@
 # Instalación y ejecución del proyecto
 
 ```
-1. git clone https://github.com/tu-usuario/tu-repositorio.git
-2. cd tu-repositorio
+1. git clone https://github.com/jonnattanChoque/colpatria.git
+2. cd colpatria
 3. pod install
-4. open YourProjectName.xcworkspace
-5. Selecciona tu esquema de proyecto en Xcode.
+4. open colpatria.xcworkspace
+5. Selecciona el esquema "colpatria" en Xcode.
 6. Conecta un dispositivo o selecciona un simulador.
 7. Haz clic en el botón de ejecutar (Run) o presiona Cmd + R.
 ```
