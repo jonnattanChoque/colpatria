@@ -1,0 +1,20 @@
+"General.Alert.button" = "Entendido";
+
+"Home.Filter" = "Ver filtros";
+"Home.Search" = "Buscar pélicula";
+"Home.AlertError.title" = "Error";
+"Home.AlertError.message" = "No fue posible realizar la búsqueda";
+"Home.AlertEmpty.title" = "Espera";
+"Home.AlertEmpty.message" = "No hay palabras de búsqueda";
+"Home.EmptyTitle" = "No hay resultados";
+"Home.Filter.title" = "Filtros";
+"Home.Filter.adult" = "Adultos";
+"Home.Filter.languague" = "Idioma";
+"Home.Filter.average" = "Filtros";
+"Home.Filter.min" = "Min";
+"Home.Filter.max" = "Max";
+"Home.Filter.apply" = "Aplicar";
+"Home.Filter.cancel" = "X";
+"Home.Filter.remove" = "Remover";
+
+"Movie.Title" = "Listado de películas por: ";

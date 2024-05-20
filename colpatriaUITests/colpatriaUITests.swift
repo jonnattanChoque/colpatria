@@ -9,33 +9,70 @@ import XCTest
 
 final class colpatriaUITests: XCTestCase {
 
+    var app: XCUIApplication!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        // Configura tu aplicación para las pruebas de interfaz de usuario
+        app = XCUIApplication()
+        app.launch() // Inicia la aplicación
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // Limpia después de cada prueba
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+    func testSearchSuccess() throws {
+        // Asegúrate de que el UISearchBar tiene un identificador de accesibilidad configurado como "searchBar"
+        let searchBar = app.searchFields.firstMatch
+        XCTAssertTrue(searchBar.exists, "Search bar does not exist")
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Escribe un texto en el UISearchBar
+        searchBar.tap()
+        searchBar.typeText("Sample Movie")
+        
+        // Toca el botón de buscar en el teclado
+        app.keyboards.buttons["Search"].tap()  // O "Search" si tu teclado está en inglés
+        
+        // Verifica que la acción de búsqueda ha sido realizada
+        // En este caso, necesitarías verificar algún cambio en la UI que ocurre después de la búsqueda
+        // Por ejemplo, verificar si se navegó a la siguiente vista
+        // Asumiendo que la siguiente vista tiene un identificador de accesibilidad "nextView"
+        let nextView = app.otherElements["MoviesViewController"]
+        XCTAssertTrue(app.otherElements["MoviesViewController"].exists, "Next view was not presented")
     }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    
+    func testSegmentControlAction() {
+        let segmentControl = app.segmentedControls["segmentControl"]
+        XCTAssertTrue(segmentControl.exists, "Segmentcontrol no existe")
+        
+        let firstSegment = segmentControl.buttons.element(boundBy: 0)
+        let secondSegment = segmentControl.buttons.element(boundBy: 1)
+        
+        XCTAssertTrue(firstSegment.exists, "Primer segmento no existe")
+        XCTAssertTrue(secondSegment.exists, "Segundo segmento no existe")
+        
+        // Validando el segmento inicial
+        XCTAssertTrue(firstSegment.isSelected, "Primer segmento no existe seleccionado por defecto")
+        
+        // Cambiar al segundo segmento
+        secondSegment.tap()
+        XCTAssertTrue(secondSegment.isSelected, "Se cambiará al segundo segmento")
+        XCTAssertFalse(firstSegment.isSelected, "Primer segmento desaparecerá")
+        
+        // Cambiar de nuevo al primer segmento
+        firstSegment.tap()
+        XCTAssertTrue(firstSegment.isSelected, "Se cambiará al primer segmento")
+        XCTAssertFalse(secondSegment.isSelected, "Segundo segmento desaparecerá")
+    }
+    
+    func testFilterButtonTapped() {
+        // Interactúa con el elemento del boton
+        let filterButton = app.buttons.firstMatch
+        XCTAssertTrue(filterButton.exists, "Botón de filtro no existe")
+        
+        filterButton.tap()
+        
+        // Verifica si sale el modal de filtro.
+        XCTAssertTrue(app.otherElements["FilterView"].exists, "No existe esta vista")
     }
 }

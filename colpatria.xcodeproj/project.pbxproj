@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		305E9D7435EB17A00A840DDF /* Pods_colpatria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E878F5A04C35A99538A678 /* Pods_colpatria.framework */; };
+		863D5CFBC008E6B3E6944778 /* Pods_colpatria_colpatriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FFCA6C486CCB100BD3700E /* Pods_colpatria_colpatriaUITests.framework */; };
 		E6D223BF2BF92FA100FC9209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223BE2BF92FA100FC9209 /* AppDelegate.swift */; };
 		E6D223C12BF92FA100FC9209 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223C02BF92FA100FC9209 /* SceneDelegate.swift */; };
 		E6D223C32BF92FA100FC9209 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223C22BF92FA100FC9209 /* ViewController.swift */; };
 		E6D223C62BF92FA100FC9209 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E6D223C52BF92FA100FC9209 /* Base */; };
 		E6D223C82BF92FA300FC9209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D223C72BF92FA300FC9209 /* Assets.xcassets */; };
 		E6D223CB2BF92FA300FC9209 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E6D223CA2BF92FA300FC9209 /* Base */; };
-		E6D223D62BF92FA300FC9209 /* colpatriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223D52BF92FA300FC9209 /* colpatriaTests.swift */; };
 		E6D223E02BF92FA300FC9209 /* colpatriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223DF2BF92FA300FC9209 /* colpatriaUITests.swift */; };
 		E6D223E22BF92FA300FC9209 /* colpatriaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223E12BF92FA300FC9209 /* colpatriaUITestsLaunchTests.swift */; };
+		E6D223F62BF9308B00FC9209 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223F52BF9308B00FC9209 /* HomeRouter.swift */; };
+		E6D223F92BF930CA00FC9209 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223F82BF930CA00FC9209 /* HomeProtocols.swift */; };
+		E6D223FB2BF9310500FC9209 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223FA2BF9310500FC9209 /* MovieModel.swift */; };
+		E6D223FD2BF9314300FC9209 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223FC2BF9314300FC9209 /* HomeViewController.swift */; };
+		E6D223FF2BF9315F00FC9209 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D223FE2BF9315F00FC9209 /* HomeInteractor.swift */; };
+		E6D224012BF9326B00FC9209 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224002BF9326B00FC9209 /* HomePresenter.swift */; };
+		E6D224042BF9341A00FC9209 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224032BF9341A00FC9209 /* UIViewExtension.swift */; };
+		E6D224072BF9368400FC9209 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224062BF9368400FC9209 /* Constants.swift */; };
+		E6D2240B2BF93F6900FC9209 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2240A2BF93F6900FC9209 /* MoviesView.swift */; };
+		E6D2240D2BF9409800FC9209 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2240C2BF9409800FC9209 /* MovieViewCell.swift */; };
+		E6D2240F2BF948C900FC9209 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2240E2BF948C900FC9209 /* Image.swift */; };
+		E6D224112BF9503400FC9209 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224102BF9503400FC9209 /* DoubleExtension.swift */; };
+		E6D224132BF9546200FC9209 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224122BF9546200FC9209 /* StringExtension.swift */; };
+		E6D224152BF9586300FC9209 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224142BF9586300FC9209 /* Alerts.swift */; };
+		E6D224182BF9589000FC9209 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224172BF9589000FC9209 /* Strings.swift */; };
+		E6D2241A2BF958AE00FC9209 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6D224192BF958AE00FC9209 /* Localizable.strings */; };
+		E6D2241C2BF95D8400FC9209 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2241B2BF95D8400FC9209 /* FilterView.swift */; };
+		E6D224252BF9A8B000FC9209 /* MoviesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224242BF9A8B000FC9209 /* MoviesProtocols.swift */; };
+		E6D224272BF9A8BC00FC9209 /* MoviesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224262BF9A8BC00FC9209 /* MoviesRouter.swift */; };
+		E6D224292BF9A8CE00FC9209 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224282BF9A8CE00FC9209 /* MoviesModel.swift */; };
+		E6D2242B2BF9A8DD00FC9209 /* MoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2242A2BF9A8DD00FC9209 /* MoviesPresenter.swift */; };
+		E6D2242D2BF9A8EA00FC9209 /* MoviesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2242C2BF9A8EA00FC9209 /* MoviesInteractor.swift */; };
+		E6D2242F2BF9A8F700FC9209 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2242E2BF9A8F700FC9209 /* MoviesViewController.swift */; };
+		E6D224312BF9B83600FC9209 /* MovieSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224302BF9B83600FC9209 /* MovieSearchView.swift */; };
+		E6D224342BF9C12500FC9209 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = E6D224332BF9C12500FC9209 /* languages.json */; };
+		E6D224362BF9C1BF00FC9209 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224352BF9C1BF00FC9209 /* Json.swift */; };
+		E6D224392BFA5B0500FC9209 /* HomeViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224382BFA5B0500FC9209 /* HomeViewTest.swift */; };
+		E6D2243C2BFA61BE00FC9209 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2243B2BFA61BE00FC9209 /* MockData.swift */; };
+		E6D2243F2BFA6B6700FC9209 /* HomeInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D2243E2BFA6B6700FC9209 /* HomeInteractorTest.swift */; };
+		E6D224422BFA6D2700FC9209 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224412BFA6D2700FC9209 /* MockURLProtocol.swift */; };
+		E6D224442BFA70C600FC9209 /* MoviesInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224432BFA70C600FC9209 /* MoviesInteractorTest.swift */; };
+		E6D224472BFA729700FC9209 /* HomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224462BFA729700FC9209 /* HomePresenterTest.swift */; };
+		E6D224492BFA78FF00FC9209 /* MoviePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D224482BFA78FF00FC9209 /* MoviePresenterTest.swift */; };
+		FBEAE270B5EF6B2B2127EEB1 /* Pods_colpatriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8844DFAD960261BAE4F2FB3C /* Pods_colpatriaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +71,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10093BC6A5731B5805914BF9 /* Pods-colpatria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colpatria.debug.xcconfig"; path = "Target Support Files/Pods-colpatria/Pods-colpatria.debug.xcconfig"; sourceTree = "<group>"; };
+		2EF241A511BD40C3FAAB2C6D /* Pods-colpatriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colpatriaTests.release.xcconfig"; path = "Target Support Files/Pods-colpatriaTests/Pods-colpatriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		334B7B2DCD2C2E6191FE17A4 /* Pods-colpatria-colpatriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colpatria-colpatriaUITests.release.xcconfig"; path = "Target Support Files/Pods-colpatria-colpatriaUITests/Pods-colpatria-colpatriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65224DB51448D5D7BBCF22BB /* Pods-colpatriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colpatriaTests.debug.xcconfig"; path = "Target Support Files/Pods-colpatriaTests/Pods-colpatriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8844DFAD960261BAE4F2FB3C /* Pods_colpatriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colpatriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF2F2CB9B5CEE3DF209E5A2 /* Pods-colpatria-colpatriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colpatria-colpatriaUITests.debug.xcconfig"; path = "Target Support Files/Pods-colpatria-colpatriaUITests/Pods-colpatria-colpatriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9CBADAA85CBBD7CF010E5AB /* Pods-colpatria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colpatria.release.xcconfig"; path = "Target Support Files/Pods-colpatria/Pods-colpatria.release.xcconfig"; sourceTree = "<group>"; };
+		C5E878F5A04C35A99538A678 /* Pods_colpatria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colpatria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D223BB2BF92FA100FC9209 /* colpatria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colpatria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D223BE2BF92FA100FC9209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D223C02BF92FA100FC9209 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +88,43 @@
 		E6D223CA2BF92FA300FC9209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D223CC2BF92FA300FC9209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6D223D12BF92FA300FC9209 /* colpatriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colpatriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6D223D52BF92FA300FC9209 /* colpatriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colpatriaTests.swift; sourceTree = "<group>"; };
 		E6D223DB2BF92FA300FC9209 /* colpatriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colpatriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D223DF2BF92FA300FC9209 /* colpatriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colpatriaUITests.swift; sourceTree = "<group>"; };
 		E6D223E12BF92FA300FC9209 /* colpatriaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colpatriaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6D223F52BF9308B00FC9209 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		E6D223F82BF930CA00FC9209 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		E6D223FA2BF9310500FC9209 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		E6D223FC2BF9314300FC9209 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E6D223FE2BF9315F00FC9209 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		E6D224002BF9326B00FC9209 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		E6D224032BF9341A00FC9209 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E6D224062BF9368400FC9209 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E6D2240A2BF93F6900FC9209 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		E6D2240C2BF9409800FC9209 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		E6D2240E2BF948C900FC9209 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E6D224102BF9503400FC9209 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		E6D224122BF9546200FC9209 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E6D224142BF9586300FC9209 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		E6D224172BF9589000FC9209 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		E6D224192BF958AE00FC9209 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E6D2241B2BF95D8400FC9209 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		E6D224242BF9A8B000FC9209 /* MoviesProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesProtocols.swift; sourceTree = "<group>"; };
+		E6D224262BF9A8BC00FC9209 /* MoviesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesRouter.swift; sourceTree = "<group>"; };
+		E6D224282BF9A8CE00FC9209 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		E6D2242A2BF9A8DD00FC9209 /* MoviesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
+		E6D2242C2BF9A8EA00FC9209 /* MoviesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractor.swift; sourceTree = "<group>"; };
+		E6D2242E2BF9A8F700FC9209 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		E6D224302BF9B83600FC9209 /* MovieSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchView.swift; sourceTree = "<group>"; };
+		E6D224332BF9C12500FC9209 /* languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		E6D224352BF9C1BF00FC9209 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		E6D224382BFA5B0500FC9209 /* HomeViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTest.swift; sourceTree = "<group>"; };
+		E6D2243B2BFA61BE00FC9209 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		E6D2243E2BFA6B6700FC9209 /* HomeInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorTest.swift; sourceTree = "<group>"; };
+		E6D224412BFA6D2700FC9209 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		E6D224432BFA70C600FC9209 /* MoviesInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractorTest.swift; sourceTree = "<group>"; };
+		E6D224462BFA729700FC9209 /* HomePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTest.swift; sourceTree = "<group>"; };
+		E6D224482BFA78FF00FC9209 /* MoviePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenterTest.swift; sourceTree = "<group>"; };
+		F3FFCA6C486CCB100BD3700E /* Pods_colpatria_colpatriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colpatria_colpatriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305E9D7435EB17A00A840DDF /* Pods_colpatria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEAE270B5EF6B2B2127EEB1 /* Pods_colpatriaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +148,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863D5CFBC008E6B3E6944778 /* Pods_colpatria_colpatriaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62DBA18EB8C8C6741C10B6C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10093BC6A5731B5805914BF9 /* Pods-colpatria.debug.xcconfig */,
+				B9CBADAA85CBBD7CF010E5AB /* Pods-colpatria.release.xcconfig */,
+				8AF2F2CB9B5CEE3DF209E5A2 /* Pods-colpatria-colpatriaUITests.debug.xcconfig */,
+				334B7B2DCD2C2E6191FE17A4 /* Pods-colpatria-colpatriaUITests.release.xcconfig */,
+				65224DB51448D5D7BBCF22BB /* Pods-colpatriaTests.debug.xcconfig */,
+				2EF241A511BD40C3FAAB2C6D /* Pods-colpatriaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC71E6DDF0D079E4FF8EE0DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E878F5A04C35A99538A678 /* Pods_colpatria.framework */,
+				F3FFCA6C486CCB100BD3700E /* Pods_colpatria_colpatriaUITests.framework */,
+				8844DFAD960261BAE4F2FB3C /* Pods_colpatriaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6D223B22BF92FA100FC9209 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +185,8 @@
 				E6D223D42BF92FA300FC9209 /* colpatriaTests */,
 				E6D223DE2BF92FA300FC9209 /* colpatriaUITests */,
 				E6D223BC2BF92FA100FC9209 /* Products */,
+				62DBA18EB8C8C6741C10B6C0 /* Pods */,
+				BC71E6DDF0D079E4FF8EE0DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +203,11 @@
 		E6D223BD2BF92FA100FC9209 /* colpatria */ = {
 			isa = PBXGroup;
 			children = (
+				E6D224322BF9C11300FC9209 /* Files */,
+				E6D224162BF9588600FC9209 /* Localize */,
+				E6D224052BF9366F00FC9209 /* Utils */,
+				E6D224022BF9340500FC9209 /* Extensions */,
+				E6D223EE2BF9304800FC9209 /* Modules */,
 				E6D223BE2BF92FA100FC9209 /* AppDelegate.swift */,
 				E6D223C02BF92FA100FC9209 /* SceneDelegate.swift */,
 				E6D223C22BF92FA100FC9209 /* ViewController.swift */,
@@ -113,7 +222,11 @@
 		E6D223D42BF92FA300FC9209 /* colpatriaTests */ = {
 			isa = PBXGroup;
 			children = (
-				E6D223D52BF92FA300FC9209 /* colpatriaTests.swift */,
+				E6D224452BFA728900FC9209 /* Presenter */,
+				E6D224402BFA6CF600FC9209 /* Network */,
+				E6D2243D2BFA683000FC9209 /* Interactor */,
+				E6D2243A2BFA61AE00FC9209 /* Data */,
+				E6D224372BFA5AE400FC9209 /* View */,
 			);
 			path = colpatriaTests;
 			sourceTree = "<group>";
@@ -127,6 +240,221 @@
 			path = colpatriaUITests;
 			sourceTree = "<group>";
 		};
+		E6D223EE2BF9304800FC9209 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2241D2BF9A86900FC9209 /* Movies */,
+				E6D223EF2BF9304F00FC9209 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E6D223EF2BF9304F00FC9209 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E6D223F72BF930B900FC9209 /* Protocols */,
+				E6D223F42BF9307100FC9209 /* Router */,
+				E6D223F32BF9306A00FC9209 /* Entity */,
+				E6D223F22BF9306400FC9209 /* Presenter */,
+				E6D223F12BF9305D00FC9209 /* Interactor */,
+				E6D223F02BF9305500FC9209 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E6D223F02BF9305500FC9209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6D223FC2BF9314300FC9209 /* HomeViewController.swift */,
+				E6D2240A2BF93F6900FC9209 /* MoviesView.swift */,
+				E6D2240C2BF9409800FC9209 /* MovieViewCell.swift */,
+				E6D2241B2BF95D8400FC9209 /* FilterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6D223F12BF9305D00FC9209 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6D223FE2BF9315F00FC9209 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E6D223F22BF9306400FC9209 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224002BF9326B00FC9209 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E6D223F32BF9306A00FC9209 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E6D223FA2BF9310500FC9209 /* MovieModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E6D223F42BF9307100FC9209 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6D223F52BF9308B00FC9209 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E6D223F72BF930B900FC9209 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E6D223F82BF930CA00FC9209 /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E6D224022BF9340500FC9209 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224032BF9341A00FC9209 /* UIViewExtension.swift */,
+				E6D224102BF9503400FC9209 /* DoubleExtension.swift */,
+				E6D224122BF9546200FC9209 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E6D224052BF9366F00FC9209 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224062BF9368400FC9209 /* Constants.swift */,
+				E6D2240E2BF948C900FC9209 /* Image.swift */,
+				E6D224142BF9586300FC9209 /* Alerts.swift */,
+				E6D224352BF9C1BF00FC9209 /* Json.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E6D224162BF9588600FC9209 /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224172BF9589000FC9209 /* Strings.swift */,
+				E6D224192BF958AE00FC9209 /* Localizable.strings */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
+		E6D2241D2BF9A86900FC9209 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224232BF9A89A00FC9209 /* Protocols */,
+				E6D224222BF9A89400FC9209 /* Router */,
+				E6D224212BF9A88A00FC9209 /* Entity */,
+				E6D224202BF9A88300FC9209 /* Presenter */,
+				E6D2241F2BF9A87C00FC9209 /* Interactor */,
+				E6D2241E2BF9A87600FC9209 /* View */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		E6D2241E2BF9A87600FC9209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2242E2BF9A8F700FC9209 /* MoviesViewController.swift */,
+				E6D224302BF9B83600FC9209 /* MovieSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6D2241F2BF9A87C00FC9209 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2242C2BF9A8EA00FC9209 /* MoviesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E6D224202BF9A88300FC9209 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2242A2BF9A8DD00FC9209 /* MoviesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E6D224212BF9A88A00FC9209 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224282BF9A8CE00FC9209 /* MoviesModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E6D224222BF9A89400FC9209 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224262BF9A8BC00FC9209 /* MoviesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E6D224232BF9A89A00FC9209 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224242BF9A8B000FC9209 /* MoviesProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E6D224322BF9C11300FC9209 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224332BF9C12500FC9209 /* languages.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		E6D224372BFA5AE400FC9209 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224382BFA5B0500FC9209 /* HomeViewTest.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E6D2243A2BFA61AE00FC9209 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2243B2BFA61BE00FC9209 /* MockData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E6D2243D2BFA683000FC9209 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E6D2243E2BFA6B6700FC9209 /* HomeInteractorTest.swift */,
+				E6D224432BFA70C600FC9209 /* MoviesInteractorTest.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E6D224402BFA6CF600FC9209 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224412BFA6D2700FC9209 /* MockURLProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E6D224452BFA728900FC9209 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E6D224462BFA729700FC9209 /* HomePresenterTest.swift */,
+				E6D224482BFA78FF00FC9209 /* MoviePresenterTest.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +462,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D223E52BF92FA300FC9209 /* Build configuration list for PBXNativeTarget "colpatria" */;
 			buildPhases = (
+				BB4D577DF04C8FC9159F3CB7 /* [CP] Check Pods Manifest.lock */,
 				E6D223B72BF92FA100FC9209 /* Sources */,
 				E6D223B82BF92FA100FC9209 /* Frameworks */,
 				E6D223B92BF92FA100FC9209 /* Resources */,
+				AB57F284A1AE2505001C0CAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +481,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D223E82BF92FA300FC9209 /* Build configuration list for PBXNativeTarget "colpatriaTests" */;
 			buildPhases = (
+				E43E25C12F6D48BDA70D3732 /* [CP] Check Pods Manifest.lock */,
 				E6D223CD2BF92FA300FC9209 /* Sources */,
 				E6D223CE2BF92FA300FC9209 /* Frameworks */,
 				E6D223CF2BF92FA300FC9209 /* Resources */,
@@ -169,9 +500,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D223EB2BF92FA300FC9209 /* Build configuration list for PBXNativeTarget "colpatriaUITests" */;
 			buildPhases = (
+				C4292466725DE0D7495D3445 /* [CP] Check Pods Manifest.lock */,
 				E6D223D72BF92FA300FC9209 /* Sources */,
 				E6D223D82BF92FA300FC9209 /* Frameworks */,
 				E6D223D92BF92FA300FC9209 /* Resources */,
+				A190196113DBBE442B9383A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +565,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6D223C82BF92FA300FC9209 /* Assets.xcassets in Resources */,
+				E6D224342BF9C12500FC9209 /* languages.json in Resources */,
+				E6D2241A2BF958AE00FC9209 /* Localizable.strings in Resources */,
 				E6D223CB2BF92FA300FC9209 /* Base in Resources */,
 				E6D223C62BF92FA100FC9209 /* Base in Resources */,
 			);
@@ -253,14 +588,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A190196113DBBE442B9383A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colpatria-colpatriaUITests/Pods-colpatria-colpatriaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colpatria-colpatriaUITests/Pods-colpatria-colpatriaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-colpatria-colpatriaUITests/Pods-colpatria-colpatriaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB57F284A1AE2505001C0CAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colpatria/Pods-colpatria-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colpatria/Pods-colpatria-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-colpatria/Pods-colpatria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4D577DF04C8FC9159F3CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colpatria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4292466725DE0D7495D3445 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colpatria-colpatriaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E43E25C12F6D48BDA70D3732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colpatriaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6D223B72BF92FA100FC9209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D224042BF9341A00FC9209 /* UIViewExtension.swift in Sources */,
+				E6D224072BF9368400FC9209 /* Constants.swift in Sources */,
+				E6D223FB2BF9310500FC9209 /* MovieModel.swift in Sources */,
+				E6D2240B2BF93F6900FC9209 /* MoviesView.swift in Sources */,
+				E6D224252BF9A8B000FC9209 /* MoviesProtocols.swift in Sources */,
+				E6D2240F2BF948C900FC9209 /* Image.swift in Sources */,
 				E6D223C32BF92FA100FC9209 /* ViewController.swift in Sources */,
+				E6D2242D2BF9A8EA00FC9209 /* MoviesInteractor.swift in Sources */,
+				E6D223F92BF930CA00FC9209 /* HomeProtocols.swift in Sources */,
+				E6D224292BF9A8CE00FC9209 /* MoviesModel.swift in Sources */,
+				E6D223FF2BF9315F00FC9209 /* HomeInteractor.swift in Sources */,
+				E6D224132BF9546200FC9209 /* StringExtension.swift in Sources */,
+				E6D224112BF9503400FC9209 /* DoubleExtension.swift in Sources */,
+				E6D224182BF9589000FC9209 /* Strings.swift in Sources */,
+				E6D224152BF9586300FC9209 /* Alerts.swift in Sources */,
+				E6D2242F2BF9A8F700FC9209 /* MoviesViewController.swift in Sources */,
+				E6D223F62BF9308B00FC9209 /* HomeRouter.swift in Sources */,
+				E6D224312BF9B83600FC9209 /* MovieSearchView.swift in Sources */,
+				E6D224362BF9C1BF00FC9209 /* Json.swift in Sources */,
 				E6D223BF2BF92FA100FC9209 /* AppDelegate.swift in Sources */,
+				E6D224272BF9A8BC00FC9209 /* MoviesRouter.swift in Sources */,
+				E6D2242B2BF9A8DD00FC9209 /* MoviesPresenter.swift in Sources */,
+				E6D224012BF9326B00FC9209 /* HomePresenter.swift in Sources */,
+				E6D223FD2BF9314300FC9209 /* HomeViewController.swift in Sources */,
+				E6D2241C2BF95D8400FC9209 /* FilterView.swift in Sources */,
 				E6D223C12BF92FA100FC9209 /* SceneDelegate.swift in Sources */,
+				E6D2240D2BF9409800FC9209 /* MovieViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +730,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D223D62BF92FA300FC9209 /* colpatriaTests.swift in Sources */,
+				E6D2243F2BFA6B6700FC9209 /* HomeInteractorTest.swift in Sources */,
+				E6D2243C2BFA61BE00FC9209 /* MockData.swift in Sources */,
+				E6D224392BFA5B0500FC9209 /* HomeViewTest.swift in Sources */,
+				E6D224492BFA78FF00FC9209 /* MoviePresenterTest.swift in Sources */,
+				E6D224472BFA729700FC9209 /* HomePresenterTest.swift in Sources */,
+				E6D224422BFA6D2700FC9209 /* MockURLProtocol.swift in Sources */,
+				E6D224442BFA70C600FC9209 /* MoviesInteractorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,19 +905,22 @@
 		};
 		E6D223E62BF92FA300FC9209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10093BC6A5731B5805914BF9 /* Pods-colpatria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYW52QAKQ3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = colpatria/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,19 +936,22 @@
 		};
 		E6D223E72BF92FA300FC9209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9CBADAA85CBBD7CF010E5AB /* Pods-colpatria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYW52QAKQ3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = colpatria/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -493,12 +967,14 @@
 		};
 		E6D223E92BF92FA300FC9209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65224DB51448D5D7BBCF22BB /* Pods-colpatriaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYW52QAKQ3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -513,12 +989,14 @@
 		};
 		E6D223EA2BF92FA300FC9209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EF241A511BD40C3FAAB2C6D /* Pods-colpatriaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYW52QAKQ3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -533,11 +1011,13 @@
 		};
 		E6D223EC2BF92FA300FC9209 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF2F2CB9B5CEE3DF209E5A2 /* Pods-colpatria-colpatriaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYW52QAKQ3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twon.colpatriaUITests;
@@ -551,11 +1031,13 @@
 		};
 		E6D223ED2BF92FA300FC9209 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334B7B2DCD2C2E6191FE17A4 /* Pods-colpatria-colpatriaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GYW52QAKQ3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twon.colpatriaUITests;
